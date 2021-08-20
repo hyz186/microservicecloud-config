@@ -11,7 +11,7 @@ spring:
     name: microservicecloud-config-eureka-client
 eureka:
   client:
-    service-yrl:
+    service-url:
       defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 server:
@@ -22,5 +22,5 @@ spring:
     name: microservicecloud-config-eureka-client
 eureka:
   client:
-    service-yrl:
+    service-url:
       defaultZone: http://eureka-dev.com:7002/eureka/
